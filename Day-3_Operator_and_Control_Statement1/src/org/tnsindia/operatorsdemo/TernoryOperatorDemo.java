@@ -1,9 +1,17 @@
 package org.tnsindia.operatorsdemo;
 
+import java.util.Scanner;
+
 public class TernoryOperatorDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the value of a and b: ");
+		int a=s.nextInt();//11
+		int b=s.nextInt();//65
+		int result=(a>b)?a:b;
+		System.out.println("the result is: "+result);
+
 
 	}
 
