@@ -3,11 +3,20 @@ package org.tnsindia.looping.java;
 public class Enhancedforloop {
 
 	public static void main(String[] args) {
-		String[] names= {"purple","blue","pink"};
-		for (String name:names) {
-			System.out.println(name);
-		}
+		//int arr[]= {11,22,33};
+				//enhanced for loop
+				/*for(int itr:arr)
+				{
+					System.out.println(itr);
+				}*/
+				
+				char x[]= {'A','B'};
+				for(int itr:x)
+				{			
+					System.out.println(itr);
 
-	}
+				}
+			
+	     }
 
 }
