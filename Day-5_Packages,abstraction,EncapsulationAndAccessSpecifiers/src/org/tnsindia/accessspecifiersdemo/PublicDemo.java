@@ -2,9 +2,12 @@ package org.tnsindia.accessspecifiersdemo;
 
 public class PublicDemo {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	//data member
+			public double amount;
+			public void print(double amount)
+			{
+				System.out.println(amount);
+			}
 	}
 
-}
+
