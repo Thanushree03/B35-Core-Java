@@ -7,6 +7,7 @@ public class MethodOverloading {
 		{
 			System.out.println("The addition of x and y is: "+(x+y));
 		}
+		//if return type is different and parameter is same then its overriding
 		public void addition(float x,int y)
 		{
 			System.out.println("The addition of x and y is: "+(x+y));
